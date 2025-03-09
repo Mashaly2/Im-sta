@@ -1,0 +1,17 @@
+            - name: Netlify Next.js Deploy
+  # You may pin to the exact commit or the version.
+  # uses: veloii/action-netlify-deploy@1341520ad92eca66dac2ff3a445f1a0b79a99d3d
+  uses: veloii/action-netlify-deploy@v2.2.1
+  with:
+    # Auth token to use with netlify
+    NETLIFY_AUTH_TOKEN: # default is 
+    # Your Netlify site id
+    NETLIFY_SITE_ID: # default is 
+    # Should the site be deployed to production?
+    NETLIFY_DEPLOY_TO_PROD: # optional
+    # A deploy message
+    NETLIFY_DEPLOY_MESSAGE: # optional, default is 
+    # Deployment Subdomain name
+    deploy_alias: # optional, default is 
+
+          
